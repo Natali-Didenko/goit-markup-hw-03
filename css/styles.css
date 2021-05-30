@@ -194,9 +194,6 @@ body {
 .command-card {
   width: 270px;
   background-color: var(--primari-white-color);
-  border: 1px solid var(--command-card-color);
-  border-radius: 0 0 4px 4px;
-  box-sizing: border-box;
 }
 .command-card:not(:last-child) {
   margin-right: 30px;
@@ -225,6 +222,8 @@ body {
   padding-bottom: 30px;
   border: 1px solid var(--command-card-color);
   border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
 }
 
 /* Footer content */
