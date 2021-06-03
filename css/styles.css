@@ -280,6 +280,9 @@ body {
   border-radius: 4px;
   border: 1px solid transparent;
   text-align: center;
+}
+
+.portfolio-buttons:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -287,10 +290,6 @@ body {
 .buttons:focus {
   color: var(--primari-white-color);
   background-color: var(--accent-color);
-}
-
-.buttons:not(:last-child) {
-  margin-right: 8px;
 }
 
 .card {
